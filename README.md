@@ -13,7 +13,7 @@
 - [Performance](#performance)
 
 ## Introduction
-The aim of this project is to assign a job to a job description. 
+The aim of this project is to assign a job to a job description. A REMPLIR
 
 ## Installation
     $ git clone https://github.com/MayVoong1/Defi_IA
