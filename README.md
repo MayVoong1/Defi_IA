@@ -23,7 +23,7 @@ The aim of this project is to assign a job to a job description. A REMPLIR
 
 ## Performance
 
-The time required to compute pairwise distance between 100 trajectories (4950 distances), composed from 3 to 20 points (`data/benchmark.csv`) :
+The time required and scores obtained :
 
 | 		         | Score      | Time |
 | ------------- |:-------------:| -----:|
