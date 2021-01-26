@@ -1,5 +1,5 @@
 # Defi-IA 2021
-=====================
+
 
 <div align="center">
   <img src="images/ia.png" />
@@ -15,7 +15,7 @@
 ## Introduction
 The aim of this project is to assign a job to a job description. A REMPLIR
 
-## Installation
+## Installation 
     $ git clone https://github.com/MayVoong1/Defi_IA
     $ cd Defi_IA/
     $ sudo pip3 install -r requirements.txt
