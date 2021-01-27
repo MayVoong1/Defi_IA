@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="images/ia.png" />
+  <img src="images/ia.jpg" />
 </div>
 
 ## Table of contents
