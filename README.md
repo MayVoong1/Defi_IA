@@ -9,11 +9,16 @@
 
 - [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
+- [Dataset](#dataset)
 - [Installation](#installation)
 - [Performance](#performance)
 
 ## Introduction
 The aim of this project is to assign a job to a job description. A REMPLIR
+
+## Dataset
+
+We used data from the <a href="https://www.wikiwand.com/en/Common_Crawl">Common Crawl</a>, a non profit organization. We have a train set of 217198 rows and 3 columns: each row refer to an individual that is identified by his id (first column), a job description (second column) and his sex (third column). 
 
 ## Installation 
     $ git clone https://github.com/MayVoong1/Defi_IA
