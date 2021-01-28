@@ -12,7 +12,7 @@
 - [🏆 Performance](#-performance)
 
 ## ☀ Introduction
-The aim of this project is to assign a job to a job description. A REMPLIR
+This project was part of a Kaggle competition between students that took place between november of 2020 and january of 2021. The aim was to assign a job to a job description. A REMPLIR
 
 ## 🗃 Dataset
 
