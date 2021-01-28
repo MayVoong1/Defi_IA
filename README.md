@@ -17,8 +17,8 @@ The aim of this project is to assign a job to a job description. A REMPLIR
 ## 🗃 Dataset
 
 We used data from the <a href="https://www.wikiwand.com/en/Common_Crawl">Common Crawl</a>, a non profit organization. We have: 
-- a train set of 217198 rows and 3 columns: each row refer to an individual that is identified by his id (first column), a job description (second column) and his sex (third column), 
-- a test set of ... rows that follows the same structure as the train set, 
+- a train set of 217197 rows and 3 columns: each row refer to an individual that is identified by his id (first column), a job description (second column) and his sex (third column), 
+- a test set of 54300 rows that follows the same structure as the train set, 
 - a .csv (train_label.csv) that gathers the correspondence between a job id (0 to 28) and the job.  
 
 ## 🔧 Installation 
@@ -29,7 +29,7 @@ We used data from the <a href="https://www.wikiwand.com/en/Common_Crawl">Common 
 
 ## 🏆 Performance
 
-The time required and scores obtained :
+The time required and scores obtained:
 
 | 		         | Score      | Time |
 | ------------- |:-------------:| -----:|
