@@ -21,11 +21,26 @@ We used data from the <a href="https://www.wikiwand.com/en/Common_Crawl">Common 
 - a .csv (train_label.csv) that gathers the correspondence between a job id (0 to 28) and the job.  
 
 ## 🔧 Installation 
+
     $ git clone https://github.com/MayVoong1/Defi_IA
     $ cd Defi_IA/
+ We use the following commands to create an environment with Python:
+ 
+    $ python -m venv .env
+    $ source .env/bin/activate
     $ sudo pip3 install -r requirements.txt
-
-
+    
+#### Another method if you are using Anaconda:
+    $ git clone https://github.com/MayVoong1/Defi_IA
+    $ cd Defi_IA/
+    
+ We use the following commands to create an environment:
+ 
+    $ conda create -n env python=3.8
+    $ conda activate env
+    $ python -m ipykernel
+    $ sudo pip3 install -r requirements.txt
+    
 ## 🏆 Performance
 
 The time required and scores obtained:
