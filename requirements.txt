@@ -17,3 +17,4 @@ tensorboardX==2.1
 tensorflow==2.2.0
 tensorflow-estimator==2.2.0
 simpletransformers==0.51.11
+torch==1.7.1
