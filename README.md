@@ -22,13 +22,18 @@ We used data from the <a href="https://www.wikiwand.com/en/Common_Crawl">Common 
 
 ## 🔧 Installation 
 
+Note: In the following lines of code, "myenv" refers to the name of the virtual environment. Feel free to change it! 
+
     $ git clone https://github.com/MayVoong1/Defi_IA
     $ cd Defi_IA/
+    
  We use the following commands to create an environment with Python:
  
-    $ python -m venv .env
-    $ source .env/bin/activate
+    $ python -m venv myenv
+    $ source myenv/bin/activate
     $ sudo pip3 install -r requirements.txt
+    $ pip3 install --user ipykernel
+    $ python -m ipykernel install --user --name=myenv
     
 #### Another method if you are using Anaconda:
     $ git clone https://github.com/MayVoong1/Defi_IA
@@ -36,24 +41,24 @@ We used data from the <a href="https://www.wikiwand.com/en/Common_Crawl">Common 
     
  We use the following commands to create an environment:
  
-    $ conda create -n env python=3.8
-    $ conda activate env
-    $ python -m ipykernel
-    $ sudo pip3 install -r requirements.txt
+    $ conda create -n myenv python=3.8
+    $ conda activate myenv
+    $ conda install ipykernel
+    $ pip3 install -r requirements.txt
     
 ## 🏆 Performance
 
-The time required and scores obtained:
+The time required and scores obtained on the test set are gathered in the following table. All the algorithms were runned on a local environment.
 
-| 		         | Score      | Time |
+| 		         | F1-Score   | Time (in min) |
 | ------------- |:-------------:| -----:|
-| Logistic regression - Skipgram|0.0659620761871|-1.0|
-| MLP - Skipgram | 0.0781569480896 | 0.114996194839|
-| Random Forest - Skipgram | 0.0695221424103 | 0.106939792633|
-| Logistic regression - TF-IDF | 0.171737909317 | 0.319380998611|
-| Roberta (Simple Transformer) | 29.1885719299 | -1.0|
+| Logistic regression - Skipgram |0.70520|47|
+| MLP - Skipgram | 0.699160 | 210 | 
+| Random Forest - Skipgram | 0.58037 | 215 |
+| Logistic regression - TF-IDF | 0.72966 | 90 |
+| Roberta (Simple Transformer) | 0.79986 |70|
 
-
+Note: Roberta's F1-Score tends to improve when the batch size is larger. 
 
 
 
