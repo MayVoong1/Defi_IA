@@ -11,7 +11,7 @@
 - [🏆 Performance](#-performance)
 
 ## ☀ Introduction
-This project was part of the 5th edition of "Defi IA" organised for students from french-speaking universities. The competition took place between november of 2020 and january of 2021 on the well-known platform Kaggle. The aim was to assign a job to a job description. To resolve this multiclass Machine Learning problem, we had to be aware that the data set is imbalanced and that A REMPLIR
+This project was part of the 5th edition of "Defi IA" organised for students from french-speaking universities. The competition took place between november of 2020 and january of 2021 on the well-known platform Kaggle. The aim was to assign a job to a job description.
 
 ## 🗃 Dataset
 
@@ -27,11 +27,11 @@ Note: In the following lines of code, "myenv" refers to the name of the virtual 
     $ git clone https://github.com/MayVoong1/Defi_IA
     $ cd Defi_IA/
     
- We use the following commands to create an environment with Python:
+ We use the following commands to create an environment with Python 3.8:
  
     $ python -m venv myenv
     $ source myenv/bin/activate
-    $ sudo pip3 install -r requirements.txt
+    $ pip3 install -r requirements.txt
     $ pip3 install --user ipykernel
     $ python -m ipykernel install --user --name=myenv
     
