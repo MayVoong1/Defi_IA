@@ -7,6 +7,7 @@
 import re
 import unicodedata
 import nltk
+from tqdm import tqdm 
 
 class CleanText:
 
